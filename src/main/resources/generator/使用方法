@@ -1,0 +1,5 @@
+1、在Run/Debug configurations中添加一个maven
+2、command line值填写mybatis-generator:generate -e
+3、移动generatorConfig.xml到resources下
+4、修改generatorConfig.xml中的两个targetPackage值，为当前项目的包名
+4、运行maven设置
